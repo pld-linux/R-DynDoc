@@ -2,12 +2,12 @@
 
 Summary:	Functions for dynamic documents
 Name:		R-%{packname}
-Version:	1.36.0
+Version:	1.40.0
 Release:	1
 License:	Artistic 2.0
 Group:		X11/Applications
 Source0:	http://www.bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	d4c647f134914d369e9587fb8d474f5a
+# Source0-md5:	2a474f56576857f4cac8d85b8c3c2abd
 URL:		http://bioconductor.org/packages/release/bioc/html/DynDoc.html
 BuildRequires:	R
 BuildRequires:	texlive-latex
