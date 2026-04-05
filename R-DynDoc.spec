@@ -1,14 +1,15 @@
 %define packname  DynDoc
 
+%undefine	_debugsource_packages
 Summary:	Functions for dynamic documents
 Name:		R-%{packname}
-Version:	1.40.0
-Release:	3
+Version:	1.88.0
+Release:	1
 License:	Artistic 2.0
 Group:		X11/Applications
-Source0:	http://www.bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	2a474f56576857f4cac8d85b8c3c2abd
-URL:		http://bioconductor.org/packages/release/bioc/html/DynDoc.html
+Source0:	https://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+# Source0-md5:	9261437d03e5f20eb32119508ad4a8c4
+URL:		https://bioconductor.org/packages/release/bioc/html/DynDoc.html
 BuildRequires:	R
 BuildRequires:	texlive-latex
 Requires:	R
